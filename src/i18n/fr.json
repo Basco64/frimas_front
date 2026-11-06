@@ -1,0 +1,104 @@
+{
+  "common": {
+    "loading": "Chargement…",
+    "retry": "Réessayer"
+  },
+  "nav": {
+    "login": "Connexion",
+    "enterGame": "Entrer dans le jeu",
+    "logout": "Déconnexion"
+  },
+  "landing": {
+    "tagline": "Quand le monde gèle, seuls les braves résistent.",
+    "intro1": " Chaque jour, vous faites des choix qui pèsent sur la survie de tous.",
+    "intro2": "Chaque nuit, la ville découvre si ça a suffi.",
+    "play": "Jouer",
+    "choicesTitle": "Chaque jour, trois choix",
+    "defend": {
+      "title": "Défendre",
+      "text": "Nourrissez la Flamme, bâtissez les défenses. Sûr et utile à tous."
+    },
+    "explore": {
+      "title": "Explorer",
+      "text": "Fouillez les Terres Mortes. Risqué, mais c’est la seule source de nouveaux objets."
+    },
+    "help": {
+      "title": "Aider",
+      "text": "Soignez, partagez, couvrez vos voisins. Discret, mais ça sauve des vies."
+    },
+    "rolesTitle": "Quatre rôles, une ville de dix",
+    "rolesText": "Chaque rôle apporte un bonus différent, mais il n’y a pas assez de postes pour tout le monde. À la ville de choisir ce qu’elle sacrifie."
+  },
+  "roles": {
+    "explorer": "Explorateur",
+    "guardian": "Gardien",
+    "healer": "Soigneur",
+    "tinkerer": "Bricoleur"
+  },
+  "auth": {
+    "loginTitle": "Connexion",
+    "registerTitle": "Créer un compte",
+    "username": "Nom d’utilisateur",
+    "usernameHint": "3 caractères minimum",
+    "password": "Mot de passe",
+    "passwordHint": "8 caractères minimum",
+    "confirmPassword": "Confirmer le mot de passe",
+    "passwordsMismatch": "Les mots de passe ne correspondent pas.",
+    "submitLogin": "Se connecter",
+    "submitRegister": "S’inscrire",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Déjà un compte ?"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Réessayez dans un instant.",
+    "invalid_credentials": "Nom d’utilisateur ou mot de passe incorrect.",
+    "username_taken": "Ce nom d’utilisateur est déjà pris.",
+    "invalid_input": "Vérifiez les champs : nom de 3 caractères minimum, mot de passe de 8 minimum.",
+    "town_not_found": "Cette ville n’existe plus.",
+    "town_full": "Cette ville est complète.",
+    "role_full": "Tous les postes de ce rôle sont pris.",
+    "already_in_a_town": "Vous êtes déjà citoyen d’une ville.",
+    "conflict": "Action impossible : ce nom de ville est déjà pris, ou vous êtes déjà dans une ville.",
+    "bad_request": "Vérifiez les informations saisies.",
+    "town_name_taken": "Ce nom de ville est déjà pris.",
+    "invalid_town_name": "Le nom de la ville doit contenir entre 3 et 30 caractères.",
+    "invalid_town_size": "La taille de la ville doit être comprise entre 2 et 10.",
+    "not_enough_ap": "Vous n’avez plus assez de points d’action.",
+    "town_not_started": "La ville n’est pas encore lancée : son créateur doit d’abord la démarrer.",
+    "no_citizen": "Vous n’êtes citoyen d’aucune ville.",
+    "no_town": "Vous n’êtes dans aucune ville.",
+    "unauthorized": "Votre session a expiré. Reconnectez-vous.",
+    "internal": "Une erreur est survenue côté serveur."
+  },
+  "app": {
+    "towns": {
+      "title": "Choisir une ville"
+    },
+    "game": {
+      "title": "La ville",
+      "soon": "L’écran de jeu arrive bientôt."
+    }
+  },
+  "towns": {
+    "title": "Choisir une ville",
+    "open": "Villes ouvertes",
+    "none": "Aucune ville ouverte pour l’instant. Fondez la première !",
+    "citizens": "{{count}} / {{max}} citoyens",
+    "day": "Jour {{day}}",
+    "join": "Rejoindre",
+    "cancel": "Annuler",
+    "chooseRole": "Choisissez votre rôle",
+    "roleFinal": "Votre rôle est définitif dans cette ville.",
+    "confirmJoin": "Rejoindre avec ce rôle",
+    "places": "{{remaining}} / {{slots}} places",
+    "full": "Complet",
+    "createTitle": "Fonder une ville",
+    "name": "Nom de la ville",
+    "nameHint": "3 à 30 caractères",
+    "yourRole": "Votre rôle",
+    "chooseRoleFirst": "Choisissez un rôle pour fonder la ville.",
+    "sizeDev": "Taille de la ville (développement uniquement)",
+    "submitCreate": "Fonder la ville",
+    "mayor": "Maire"
+  }
+}

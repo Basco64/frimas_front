@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: "Cinzel", serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-cinzel);
+}
+
+button,
+a[data-custom-button] {
+  font-family: var(--font-rajdhani);
+}

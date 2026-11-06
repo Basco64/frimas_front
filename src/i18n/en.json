@@ -1,0 +1,104 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "retry": "Try again"
+  },
+  "nav": {
+    "login": "Log in",
+    "enterGame": "Enter the game",
+    "logout": "Log out"
+  },
+  "landing": {
+    "tagline": "When the world freezes, only the brave endure.",
+    "intro1": "Every day, you make choices that affect everyone's chances of survival.",
+    "intro2": "Every night, the city discovers whether they were enough.",
+    "play": "Play",
+    "choicesTitle": "Three choices, every day",
+    "defend": {
+      "title": "Defend",
+      "text": "Feed the Flame, build the defences. Safe, and useful to everyone."
+    },
+    "explore": {
+      "title": "Explore",
+      "text": "Scavenge the Dead Lands. Risky, but the only source of new items."
+    },
+    "help": {
+      "title": "Help",
+      "text": "Heal, share, cover your neighbours. Quiet work that saves lives."
+    },
+    "rolesTitle": "Four roles, one town of ten",
+    "rolesText": "Each role brings a different bonus, but there are not enough posts for everyone. The town decides what to give up."
+  },
+  "roles": {
+    "explorer": "Explorer",
+    "guardian": "Guardian",
+    "healer": "Healer",
+    "tinkerer": "Tinkerer"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "registerTitle": "Create an account",
+    "username": "Username",
+    "usernameHint": "At least 3 characters",
+    "password": "Password",
+    "passwordHint": "At least 8 characters",
+    "confirmPassword": "Confirm password",
+    "passwordsMismatch": "The passwords do not match.",
+    "submitLogin": "Log in",
+    "submitRegister": "Sign up",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again in a moment.",
+    "invalid_credentials": "Incorrect username or password.",
+    "username_taken": "This username is already taken.",
+    "invalid_input": "Check the fields: username of at least 3 characters, password of at least 8.",
+    "town_not_found": "This town no longer exists.",
+    "town_full": "This town is full.",
+    "role_full": "All posts for this role are taken.",
+    "already_in_a_town": "You are already a citizen of a town.",
+    "conflict": "Not possible: this town name is already taken, or you are already in a town.",
+    "bad_request": "Please check the information you entered.",
+    "town_name_taken": "This town name is already taken.",
+    "invalid_town_name": "The town name must be between 3 and 30 characters long.",
+    "invalid_town_size": "The town size must be between 2 and 10.",
+    "not_enough_ap": "You do not have enough action points.",
+    "town_not_started": "The town has not been launched yet: its creator has to start it first.",
+    "no_citizen": "You are not a citizen of any town.",
+    "no_town": "You are not in any town.",
+    "unauthorized": "Your session has expired. Please log in again.",
+    "internal": "Something went wrong on the server."
+  },
+  "app": {
+    "towns": {
+      "title": "Choose a town"
+    },
+    "game": {
+      "title": "The town",
+      "soon": "The game screen is coming soon."
+    }
+  },
+  "towns": {
+    "title": "Choose a town",
+    "open": "Open towns",
+    "none": "No open town yet. Found the first one!",
+    "citizens": "{{count}} / {{max}} citizens",
+    "day": "Day {{day}}",
+    "join": "Join",
+    "cancel": "Cancel",
+    "chooseRole": "Choose your role",
+    "roleFinal": "Your role is final in this town.",
+    "confirmJoin": "Join with this role",
+    "places": "{{remaining}} / {{slots}} places",
+    "full": "Full",
+    "createTitle": "Found a town",
+    "name": "Town name",
+    "nameHint": "3 to 30 characters",
+    "yourRole": "Your role",
+    "chooseRoleFirst": "Choose a role to found the town.",
+    "sizeDev": "Town size (development only)",
+    "submitCreate": "Found the town",
+    "mayor": "Mayor"
+  }
+}
